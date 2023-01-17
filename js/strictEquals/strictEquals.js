@@ -1,9 +1,8 @@
 let strictEquals = (valueA, valueB) => {
-  if (Number.isNaN(valueA) && Number.isNaN(valueB)) return false;
-  if (Object.is(valueA, 0) && Object.is(valueB, -0)) return true;
-  if (Object.is(valueA, -0) && Object.is(valueB, 0)) return true;
-  if (Object.is(valueA, true) && Object.is(valueB, false)) return false;
+  const zero = 0;
+  if (Number.isNaN(valueA && valueB)) return false;
+  if (Object.is(valueA, zero) && Object.is(valueB, -zero)) return true;
+  if (Object.is(valueA, -zero) && Object.is(valueB, zero)) return true;
   return Object.is(valueA, valueB);
 };
-
 export default strictEquals;
