@@ -1,0 +1,23 @@
+{
+  "name": "202301-w2ch2-diego-bermudez",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DI3BOSS/202301-w2ch2-diego-bermudez.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DI3BOSS/202301-w2ch2-diego-bermudez/issues"
+  },
+  "homepage": "https://github.com/DI3BOSS/202301-w2ch2-diego-bermudez#readme",
+  "devDependencies": {
+    "husky": "^8.0.0"
+  }
+}
